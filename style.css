@@ -24,7 +24,7 @@ p {
   padding: 18px 20px;
   border-radius: 5px;
   border: none;
-  background-color: tomato;
+  background-color: #f15b22;
   color: white;
   font-weight: bold;
   font-size: 16px;
@@ -32,6 +32,12 @@ p {
 
 .btn-primary:hover {
   background-color: rgb(224, 34, 0);
+}
+
+hr {
+  width: 90%;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Header Styles */
@@ -67,15 +73,15 @@ header {
 /* Main Styles */
 
 /* Main Failures Styles */
+main {
+  width: 80%;
+  margin: 100px auto;
+}
+
 .main-failures-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-main {
-  width: 80%;
-  margin: 100px auto;
 }
 
 .main-failures-left {
@@ -92,7 +98,10 @@ main {
 .main-failures-right {
   width: 30%;
   display: grid;
-  align-items: center;
+}
+
+.main-failure-right-container h1 {
+  margin-top: 170px;
 }
 
 .main-failures-right ul li {
@@ -102,4 +111,190 @@ main {
 .main-failures-right ul li p i {
   margin-right: 2px;
   color: green;
+}
+
+/* Main Plan Styles */
+.main-my-plan-container {
+  margin-top: 130px;
+}
+
+.main-my-plan-container h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.main-my-plan-container ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.main-my-plan-container ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.main-my-plan-container ul li h2 {
+  text-align: center;
+}
+
+.main-my-plan-container ul li p {
+  font-size: 22px;
+  text-align: center;
+}
+
+.plan-items img {
+  height: 80px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* My Blog Styles (Extra) */
+.main-blog-container {
+  margin: 100px auto;
+}
+
+.main-blog-container > h1 {
+  margin-bottom: 40px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.blog-left-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 2px rgb(240, 236, 236);
+}
+
+.blog-container h1 {
+  margin-bottom: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.blog-left-1 {
+  width: 40%;
+}
+
+.blog-right-1 {
+  width: 50%;
+}
+
+.blog-left-2 {
+  width: 50%;
+}
+
+.blog-right-2 {
+  width: 40%;
+}
+
+.blog-right-1,
+.blog-left-2,
+p {
+  text-align: justify;
+}
+
+/* Section Positive Mindset Banner */
+
+.main-mindset-banner {
+  width: 80%;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 100px auto;
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      rgba(241, 91, 34, 100%)
+    ),
+    url("images/watch.png");
+}
+
+.main-mindset-banner h1 {
+  font-size: 35px;
+  width: 50%;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: tomato;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 18px 20px;
+  margin-top: 10px;
+}
+
+.btn-secondary:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #151414;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 150px;
+}
+
+.footer-left {
+  width: 30%;
+}
+
+.footer-title {
+  color: #f8f8f8;
+}
+
+.footer-left ul {
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-left ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.footer-left ul li img {
+  width: 40px;
+}
+
+.footer-left ul li img:hover {
+  width: 42px;
+}
+
+.footer-right {
+  width: 30%;
+}
+
+.footer-right h3 {
+  color: white;
+}
+
+.footer-right input {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  display: block;
+  background-color: #151414;
+  margin: 15px 0 5px 0;
+  width: 80%;
+  font-size: 16px;
+}
+
+.footer-right input:focus {
+  outline-color: #ffffff;
 }
