@@ -43,7 +43,7 @@ hr {
 /* Header Styles */
 
 header {
-  background-image: url('./images/banner/banner1.png');
+  background-image: url("./images/banner/banner1.png");
   background-position: center;
   background-size: cover;
 }
@@ -200,8 +200,7 @@ iframe {
 }
 
 .blog-right-1,
-.blog-left-2,
-p {
+.blog-left-2 p {
   text-align: justify;
 }
 
@@ -296,5 +295,5 @@ footer {
 }
 
 .footer-right input:focus {
-  outline-color: #ffffff;
+  outline-color: 1px solid #ffffff;
 }
