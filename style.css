@@ -43,7 +43,7 @@ hr {
 /* Header Styles */
 
 header {
-  background-image: url('../images/banner/banner1.png');
+  background-image: url('./images/banner/banner1.png');
   background-position: center;
   background-size: cover;
 }
