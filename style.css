@@ -30,10 +30,6 @@ p {
   font-size: 16px;
 }
 
-.btn-primary:hover {
-  background-color: rgb(224, 34, 0);
-}
-
 hr {
   width: 90%;
   margin-left: 50%;
@@ -236,11 +232,6 @@ iframe {
   margin-top: 10px;
 }
 
-.btn-secondary:hover {
-  background-color: tomato;
-  color: white;
-}
-
 /* Footer Styles */
 footer {
   background-color: #151414;
@@ -271,10 +262,6 @@ footer {
   width: 40px;
 }
 
-.footer-left ul li img:hover {
-  width: 42px;
-}
-
 .footer-right {
   width: 30%;
 }
@@ -292,8 +279,4 @@ footer {
   margin: 15px 0 5px 0;
   width: 80%;
   font-size: 16px;
-}
-
-.footer-right input:focus {
-  outline-color: 1px solid #ffffff;
 }
